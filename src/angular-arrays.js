@@ -33,14 +33,6 @@
       return function (array) {
         return Arrays.shuffle(array);
       }
-    }])
-
-    .filter('join', function () {
-      return function (array, glue) {
-        glue = glue || ', ';
-        return array.join(glue)
-      }
-    })
-  ;
+    }]);
 
 })(window.angular);
